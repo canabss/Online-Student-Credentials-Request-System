@@ -1,0 +1,637 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    
+  
+}
+
+
+.title{
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.login-page, .create-page, .forgot-page{
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url("../img/slide_01.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+.login-box, .create-box, .forgot-box{
+  width: 400px;
+  background-color: white;
+  padding: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1rem;
+}
+
+.btn-login, .btn-submit{
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  background-color: maroon;
+  text-align: center;
+  font-family: 'Monserrat', sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+.btn-login:hover, .btn-submit:hover{
+  text-align: center;
+  opacity: 85%;
+  font-family: 'Monserrat', sans-serif;
+  font-weight: bold;
+}
+.link{
+  text-decoration: none;
+  color: #047ffa;
+}
+.link:hover{
+  text-decoration: none;
+  color: #047ffa;
+  opacity: 65%;
+}
+
+.rows{
+  width: 100%;
+}
+ul p {
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+
+.bg-maroon {
+  background-color: #800000 !important;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    position: fixed;
+    min-width: 270px;
+    max-width: 270px;
+    margin-left: -270px;
+    background: #212529;
+    color: #fff;
+    transition: all 0.3s;
+    overflow: auto;
+    z-index: 1000;
+    height: 100vh;
+    transition: all 0.4s ease 0s;
+}
+#sidebarCollapse span {
+  width: 100%;
+  height: 2px;
+  margin: 0 auto;
+  display: block;
+  background: #ffffff;
+  transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+  transition-delay: 0.2s;
+}
+
+#sidebarCollapse span:first-of-type {
+  transform: rotate(45deg) translate(2px, 2px);
+}
+#sidebarCollapse span:nth-of-type(2) {
+  opacity: 0;
+}
+#sidebarCollapse span:last-of-type {
+  transform: rotate(-45deg) translate(1px, -1px);
+}
+
+#sidebarCollapse.active span {
+  transform: none;
+  opacity: 1;
+  margin: 5px auto;
+}
+
+#sidebar.active {
+    margin-left: 0px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background-image: url("../img/slide_01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#sidebar ul p {
+    color: #fff;
+}
+#sidebar ul li{
+  border-bottom: 1px solid #212529;
+}
+#sidebar ul li a {
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    box-sizing: border-box;
+    transition: .4s;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    padding-left: 40px;
+    color: orange;
+    text-decoration: none;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: orange;
+    background: #212529;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+@media (min-width: 768px) {
+  #content.active{
+    margin-left: 230px;
+  }
+}
+
+
+.dash{
+    margin-bottom: 2rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 25px;
+  }
+
+.dash h4, .dash .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .inner{
+      margin: 15px;
+  }
+  .small-box {
+    border-radius: 0.25rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    height: 160px;
+  }
+  
+  .small-box > .inner {
+    padding: 10px;
+  }
+  
+  .small-box h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 10px;
+    padding: 0;
+    color: white;
+    white-space: nowrap;
+  }
+  .small-box p {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .small-box p > small {
+    color: #faf8f8;
+    display: block;
+    font-size: .9rem;
+    margin-top: 5px;
+  }
+  
+  .small-box h3,
+  .small-box p {
+    z-index: 5;
+  }
+  
+  .small-box .icon {
+    color: rgba(12, 9, 9, 0.384);
+    z-index: 0;
+  }
+  
+  .small-box .icon > i {
+    font-size: 90px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: transform 0.3s linear;
+  }
+  
+  .small-box .icon {
+    font-size: 70px;
+    top: 20px;
+  }
+  
+  .small-box .icon svg {
+    font-size: 70px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+  .request-link{
+    text-decoration: none;
+  }
+  .bg-blue {
+    background-color: rgb(21, 117, 182)!important;
+  }
+  .bg-green {
+    background-color: rgb(20, 136, 20) !important;
+  }
+  .bg-red {
+    background-color: rgb(182, 21, 21)!important;
+  }
+  .bg-grey {
+    background-color: rgb(105, 114, 114) !important;
+  }
+  .section{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .bttn{
+    width: 70px;
+    color: #fff;
+    background-color: maroon;
+    text-align: center;
+    margin-left: 0.25rem;
+    font-family: 'Monserrat', sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: bold;
+  }
+  .bttn:hover{
+    text-align: center;
+    background-color: orange;
+    color: #000;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+  }
+  .page-section{
+    padding: 5rem 0;
+    background-image: url("../img/slide_01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+  }
+  .footer.bg-maroon{
+    background-color: maroon;
+    color: white;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td{
+    text-align: center;
+  }
+  .swal2-confirm{
+    background-color: maroon;
+  }
+  #table_filter, #table1_filter, #table2_filter, #table3_filter, #table4_filter, #table5_filter{
+   display: none;
+ }
+ #table_length, #table1_length, #table2_length, #table3_length, #table4_length, #table5_length{
+   display: none;
+ }
+.btn-edit {
+  color: #fff;
+  background-color: maroon;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+.btn-edit:hover {
+  color: #000;
+  background-color: orange;
+}
+.close-add, .close-edit, .close-upload-panel, #close{
+  border: none;
+  font-size: 1.75rem;
+  background: #212529;
+  color: #fff;
+}
+#btn-add{
+  background-color: none;
+  border: none;
+  color: #fff;
+}
+#btn-add{
+  color: #000;
+}
+.modal-header, .modal-footer, .modal-title{
+  background-color: #212529;
+  color: #fff;
+}
+.search-holder{
+  min-width: 450px;
+}
+.input-search, .filter-course{
+  width: 350px;
+  height: 38px;
+}
+.open-add{
+  min-width: 150px;
+}
+#profile-info{
+  width: 100%;
+  position: relative;
+}
+#profile-info td p{
+  float: left;
+  padding-top: 5px;
+}
+#profile-info td{
+  width: 80%;
+}
+#profile-info th{
+  width: 15%;
+}
+#profile-info th p{
+  float: left;
+  padding-top: 5px;
+}
+#profile-info button{
+  background-color: #fff;
+  border: none;
+  width: 50px;
+  float: right;
+  margin-top: 10px;
+}
+
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  margin-top: 60px;
+}
+.change-profile{
+  height: 40px;
+  width: 200px;
+  color: #fff;
+  background-color: maroon;
+  text-align: center;
+  font-family: 'Monserrat', sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.change-profile:hover{
+  opacity: 85%;
+}
+.cards {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding: 50px;
+  color: #000;
+  align-items: center;
+  border-radius: 10px;
+}
+.preview-profile{
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.preview-profile img{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+#input-profile-img{
+  display: none;
+}
+.label-profile-img{
+  width: 200px;
+  font-size: 18px;
+  color: #fff;
+  background-color: maroon;
+  padding: 10px;
+  padding-left: 25px;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.form-signin input[type="text"] {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid rgb(167, 164, 164);
+  font-size: 14px;
+}
+.form-signin input[type="password"] {
+  border: 1px solid rgb(167, 164, 164);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+}
+.system-title {
+  text-align: center;
+  color: #080808;
+  font-size: 40px;
+  font-weight: 400;
+}
+#dept{
+  display:none;
+}
+#dept.active{
+  display: inline;
+}
+
+.request-tab {
+  overflow: hidden;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: #ced4da;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: maroon;
+}
+.request-tab{
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  background: #212529;;
+  padding-top: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.request-tab a {
+  cursor: pointer;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.request-tab a:hover {
+  color: orange;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+@media (max-width: 992px) {
+  .cards{
+    padding: 10px;
+  }
+  #profile-pic{
+    margin-top: 15px;
+  }
+}
+@media (max-width: 768px) {
+  #profile-pic{
+    width: 150px;
+    height: 150px;
+  }
+  .change-profile{
+    height: 40px;
+    width: 150px;
+    font-size: 12px;
+  }
+  
+}
+.printing {
+  margin-bottom: 2rem;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: black;
+}
+
+.printing:hover{
+  color: white;
+  background-color: maroon;
+}
+.printing h4, .service .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.student-print .icon {
+  background-image: url(../img/student.png);
+  height: 128px;
+  width: 128px;
+  display: inline-block;
+}
+
+.alumni-print .icon {
+  background-image: url(../img/alumni.png);
+  height: 128px;
+  width: 128px;
+  display: inline-block;
+}
