@@ -1,0 +1,100 @@
+[08-Jan-2022 08:37:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function isStudent(), 1 passed in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/validations.php on line 196 and exactly 3 expected in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/database.php:87
+Stack trace:
+#0 /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/validations.php(196): isStudent('2018-500890')
+#1 /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/students.php(23): studentNoValidation('2018-500890', Array)
+#2 {main}
+  thrown in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/database.php on line 87
+[08-Jan-2022 08:48:42 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:48:42 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:48:42 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:48:42 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:48:42 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:48:42 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:54:37 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:54:37 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:54:37 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:54:37 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:54:37 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:54:37 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:54:37 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:54:37 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 08:54:37 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:06:39 UTC] PHP Notice:  Undefined index: sender_name in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/processingRequests.php on line 202
+[08-Jan-2022 11:50:26 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:50:26 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:50:26 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:50:26 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:50:26 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:50:26 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:50:26 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:50:26 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:50:26 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:52:37 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:52:37 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:52:37 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:52:37 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:52:37 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:52:37 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:52:37 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:52:37 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 11:52:37 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 12:55:25 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 12:55:25 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 12:55:25 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 12:55:25 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 12:55:25 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 12:55:25 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 12:55:25 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 12:55:25 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 12:55:25 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 14:58:09 UTC] PHP Notice:  Undefined index: sender_name in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/processingRequests.php on line 202
+[08-Jan-2022 15:18:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getAllRequest(), 1 passed in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/print.php on line 73 and exactly 2 expected in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/database.php:316
+Stack trace:
+#0 /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/print.php(73): getAllRequest('student')
+#1 {main}
+  thrown in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/database.php on line 316
+[08-Jan-2022 17:33:28 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:33:28 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:33:28 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:33:28 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:33:28 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:33:28 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:33:28 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:33:28 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:33:28 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:37:26 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:37:26 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:37:26 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:37:26 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:37:26 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:37:26 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:37:26 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:37:26 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:37:26 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:46 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:46 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:46 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:46 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:46 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:46 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:46 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:46 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:46 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:51 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:51 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:51 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:51 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:51 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:51 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:51 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:51 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:51 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:58 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:58 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:58 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:58 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:58 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:58 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:58 UTC] PHP Notice:  Undefined variable: fname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:58 UTC] PHP Notice:  Undefined variable: mname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
+[08-Jan-2022 17:42:58 UTC] PHP Notice:  Undefined variable: lname in /home/u601593730/domains/oscrs-bulsusc.com/public_html/offices/registrar/messages.php on line 81
